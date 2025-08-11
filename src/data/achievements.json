@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "title": "firstSteps",
+    "description": "firstStepsDescription",
+    "current": 10,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 2,
+    "title": "specialistBeginner",
+    "description": "specialistBeginnerDescription",
+    "current": 8,
+    "target": 10,
+    "rank": 1,
+    "category": "specialist"
+  },
+  {
+    "id": 3,
+    "title": "platformExplorer",
+    "description": "platformExplorerDescription",
+    "current": 45,
+    "target": 100,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 4,
+    "title": "advancedSpecialist",
+    "description": "advancedSpecialistDescription",
+    "current": 15,
+    "target": 50,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 5,
+    "title": "masterOfTasks",
+    "description": "masterOfTasksDescription",
+    "current": 65,
+    "target": 100,
+    "rank": 3,
+    "category": "platform"
+  },
+  {
+    "id": 6,
+    "title": "eliteSpecialist",
+    "description": "eliteSpecialistDescription",
+    "current": 0,
+    "target": 100,
+    "rank": "locked",
+    "category": "specialist"
+  },
+  {
+    "id": 7,
+    "title": "communityHelper",
+    "description": "communityHelperDescription",
+    "current": 3,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 8,
+    "title": "fastLearner",
+    "description": "fastLearnerDescription",
+    "current": 5,
+    "target": 5,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 9,
+    "title": "knowledgeSeeker",
+    "description": "knowledgeSeekerDescription",
+    "current": 15,
+    "target": 20,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 10,
+    "title": "topPerformer",
+    "description": "topPerformerDescription",
+    "current": 5,
+    "target": 100,
+    "rank": 3,
+    "category": "specialist"
+  },
+  {
+    "id": 11,
+    "title": "earlyAdopter",
+    "description": "earlyAdopterDescription",
+    "current": 1,
+    "target": 1,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 12,
+    "title": "taskStreak",
+    "description": "taskStreakDescription",
+    "current": 7,
+    "target": 14,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 13,
+    "title": "mentor",
+    "description": "mentorDescription",
+    "current": 2,
+    "target": 5,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 14,
+    "title": "bugHunter",
+    "description": "bugHunterDescription",
+    "current": 3,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 15,
+    "title": "feedbackProvider",
+    "description": "feedbackProviderDescription",
+    "current": 4,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 16,
+    "title": "profileCompleter",
+    "description": "profileCompleterDescription",
+    "current": 100,
+    "target": 100,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 17,
+    "title": "weekendWarrior",
+    "description": "weekendWarriorDescription",
+    "current": 5,
+    "target": 20,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 18,
+    "title": "certifiedSpecialist",
+    "description": "certifiedSpecialistDescription",
+    "current": 0,
+    "target": 1,
+    "rank": "locked",
+    "category": "specialist"
+  },
+  {
+    "id": 19,
+    "title": "resourceContributor",
+    "description": "resourceContributorDescription",
+    "current": 3,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 20,
+    "title": "multiTasker",
+    "description": "multiTaskerDescription",
+    "current": 8,
+    "target": 15,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 21,
+    "title": "highAccuracy",
+    "description": "highAccuracyDescription",
+    "current": 90,
+    "target": 100,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 22,
+    "title": "quickResponder",
+    "description": "quickResponderDescription",
+    "current": 35,
+    "target": 50,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 23,
+    "title": "forumLeader",
+    "description": "forumLeaderDescription",
+    "current": 5,
+    "target": 50,
+    "rank": 3,
+    "category": "platform"
+  },
+  {
+    "id": 24,
+    "title": "projectFinisher",
+    "description": "projectFinisherDescription",
+    "current": 3,
+    "target": 10,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 25,
+    "title": "innovator",
+    "description": "innovatorDescription",
+    "current": 1,
+    "target": 5,
+    "rank": 3,
+    "category": "specialist"
+  },
+  {
+    "id": 26,
+    "title": "earlyBird",
+    "description": "earlyBirdDescription",
+    "current": 30,
+    "target": 30,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 27,
+    "title": "nightOwl",
+    "description": "nightOwlDescription",
+    "current": 20,
+    "target": 20,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 28,
+    "title": "consistentPerformer",
+    "description": "consistentPerformerDescription",
+    "current": 15,
+    "target": 30,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 29,
+    "title": "qualitySpecialist",
+    "description": "qualitySpecialistDescription",
+    "current": 85,
+    "target": 100,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 30,
+    "title": "taskMaster",
+    "description": "taskMasterDescription",
+    "current": 95,
+    "target": 100,
+    "rank": 3,
+    "category": "platform"
+  },
+  {
+    "id": 31,
+    "title": "solutionArchitect",
+    "description": "solutionArchitectDescription",
+    "current": 2,
+    "target": 10,
+    "rank": 3,
+    "category": "specialist"
+  },
+  {
+    "id": 32,
+    "title": "feedbackKing",
+    "description": "feedbackKingDescription",
+    "current": 20,
+    "target": 20,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 33,
+    "title": "bugSmasher",
+    "description": "bugSmasherDescription",
+    "current": 15,
+    "target": 30,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 34,
+    "title": "documentationGuru",
+    "description": "documentationGuruDescription",
+    "current": 5,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 35,
+    "title": "teamPlayer",
+    "description": "teamPlayerDescription",
+    "current": 8,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 36,
+    "title": "efficiencyExpert",
+    "description": "efficiencyExpertDescription",
+    "current": 15,
+    "target": 20,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 37,
+    "title": "risingStar",
+    "description": "risingStarDescription",
+    "current": 1,
+    "target": 1,
+    "rank": 1,
+    "category": "specialist"
+  },
+  {
+    "id": 38,
+    "title": "milestoneMaker",
+    "description": "milestoneMakerDescription",
+    "current": 5,
+    "target": 10,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 39,
+    "title": "topTierSpecialist",
+    "description": "topTierSpecialistDescription",
+    "current": 5,
+    "target": 100,
+    "rank": 3,
+    "category": "specialist"
+  },
+  {
+    "id": 40,
+    "title": "allRounder",
+    "description": "allRounderDescription",
+    "current": 12,
+    "target": 20,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 41,
+    "title": "precisionMaster",
+    "description": "precisionMasterDescription",
+    "current": 90,
+    "target": 100,
+    "rank": 3,
+    "category": "specialist"
+  },
+  {
+    "id": 42,
+    "title": "earlyRiser",
+    "description": "earlyRiserDescription",
+    "current": 30,
+    "target": 30,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 43,
+    "title": "detailOriented",
+    "description": "detailOrientedDescription",
+    "current": 16,
+    "target": 20,
+    "rank": 2,
+    "category": "specialist"
+  },
+  {
+    "id": 44,
+    "title": "communityStar",
+    "description": "communityStarDescription",
+    "current": 10,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 45,
+    "title": "legendarySpecialist",
+    "description": "legendarySpecialistDescription",
+    "current": 0,
+    "target": 100,
+    "rank": "locked",
+    "category": "specialist"
+  },
+  {
+    "id": 46,
+    "title": "taskNinja",
+    "description": "taskNinjaDescription",
+    "current": 14,
+    "target": 20,
+    "rank": 2,
+    "category": "platform"
+  },
+  {
+    "id": 47,
+    "title": "problemSolver",
+    "description": "problemSolverDescription",
+    "current": 10,
+    "target": 10,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 48,
+    "title": "goToExpert",
+    "description": "goToExpertDescription",
+    "current": 3,
+    "target": 20,
+    "rank": 3,
+    "category": "specialist"
+  },
+  {
+    "id": 49,
+    "title": "unstoppable",
+    "description": "unstoppableDescription",
+    "current": 50,
+    "target": 50,
+    "rank": 1,
+    "category": "platform"
+  },
+  {
+    "id": 50,
+    "title": "grandMaster",
+    "description": "grandMasterDescription",
+    "current": 0,
+    "target": 100,
+    "rank": "locked",
+    "category": "specialist"
+  }
+]

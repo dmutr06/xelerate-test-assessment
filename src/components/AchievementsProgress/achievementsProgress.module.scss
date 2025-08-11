@@ -1,0 +1,69 @@
+.progressContainer {
+  min-height: 126px;
+  border-radius: 16px;
+  padding: 8px;
+  border: 1px solid rgba(98, 98, 98, 0.15);
+  background: rgba(37, 37, 37, 0.6);
+  margin-top: 24px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 8px;
+
+  .unlocked {
+    overflow: hidden;
+    background: rgba(37, 37, 37, 0.6);
+    border: 0.5px solid rgba(101, 101, 101, 0.5);
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+    padding: 16px;
+
+    .unlockedTitle {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .unlockedWrapper {
+      display: flex;
+      justify-content: space-between;
+
+      .totalAchievements {
+        font-weight: 100;
+      }
+    }
+  }
+
+  .gradient {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 161px;
+    background: linear-gradient(300deg, rgba(185, 135, 86, 1) 0%, rgba(83, 61, 39, 0) 60%);
+    filter: blur(50px);
+  }
+
+  .ranksStats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .progressContainer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .progressContainer {
+    .ranksStats {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.card {
+  min-height: 245px;
+  border-radius: 16px;
+  border: 0.5px solid rgba(101, 101, 101, 0.5);
+  padding: 16px;
+
+  &.rank_1 {
+    background: linear-gradient(rgba(40, 40, 40, 1), rgba(12, 11, 11, 1));
+    border: 0.5px solid rgba(101, 101, 101, 0.5);
+  }
+
+  &.rank_2 {
+    background: linear-gradient(rgba(94, 94, 94, 1), rgba(58, 58, 58, 1));
+    border: 0.5px solid rgba(101, 101, 101, 0.5);
+  }
+
+  &.rank_3 {
+    background: linear-gradient(rgba(105, 83, 63, 1), rgba(180, 149, 122, 1));
+    border: 0.5px solid rgba(197, 164, 132, 0.5);
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 0;
+
+    .title {
+      color: rgba(175, 141, 108, 1);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .unlocked {
+      display: block;
+      color: rgba(167, 167, 167, 1);
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .locked {
+      .info {
+        display: flex;
+        justify-content: space-between;
+
+        .achievement, .total {
+          color: rgba(167, 167, 167, 1);
+        }
+      }
+
+      .progress {
+        height: 4px;
+        display: flex;
+        width: 100%;
+        margin-top: 8px;
+        
+        .value {
+          background: linear-gradient(rgba(213, 186, 148, 1), rgba(185, 135, 86, 1), rgba(83, 68, 52, 1));
+          max-width: 100%;
+        }
+
+        .rest {
+          background: rgba(83, 83, 83, 1);
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .card {
+    width: 196px;
+  }
+}
